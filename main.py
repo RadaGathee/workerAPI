@@ -77,3 +77,5 @@ def delete_comment(comment_id: int, username: str = Depends(validate_api_key_hea
 @app.on_event("shutdown")
 def shutdown_event():
     close_connection()
+
+#  Run this in the terminal API server to start the API server -> uvicorn main:app --reload
