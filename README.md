@@ -1,6 +1,8 @@
 # Worker API
 An API for a Domestic Worker System for Skill Matching, Reporting and Ratings and Comments
 
+Remember to edit database configs
+
 Run " uvicorn main:app " in the terminal to start the FastAPI server
 
 To acccess the API UI: http://localhost:8000/docs#/
